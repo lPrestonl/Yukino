@@ -14,6 +14,7 @@ for (const file of commandFiles) {
 
 client.on("ready", () => {
   console.log("I am ready!");
+
 });
 
 client.on("message", (message) => {
@@ -64,7 +65,8 @@ if (message.content.startsWith(config.prefix + "about")) {
    .addField('Invite', 'https://shorturl.at/lpqDT', true)
    .addField('Discord', 'https://discord.gg/Hf8arY4', true)
    .addField('Uptime', uptime)
-   //.setTimestamp('2019-10-27T07:54:45.739Z')
+   .addField('Ping', + client.ping + " ms", true)
+   .setTimestamp('2019-10-27T07:54:45.739Z')
    .setFooter('Yukino Made By Preston#1337', 'https://i.imgur.com/cwhG0lZ.png');
   message.channel.send(aboutEmbed);
 }
