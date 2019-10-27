@@ -1,2 +1,18 @@
 # Yukino
-Discord Bot
+
+I created this project to replace other bots that didnt suit my needs and to get back into coding. This is also a private bot so any use of this without my permission is NOT Allowed.
+
+## Built With
+
+* [Discord.js](https://discord.js.org) - The web framework used
+* [Node-Opus](https://www.npmjs.com/package/node-opus) - Dependency Management
+
+## Authors
+
+* **Preston Brackett** - *Initial work* - [lPrestonl](https://github.com/lPrestonl)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
