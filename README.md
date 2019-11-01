@@ -4,8 +4,9 @@ I created this project to replace other bots that didnt suit my needs and to get
 
 ## Built With
 
-* [Discord.js](https://discord.js.org) - The web framework used
-* [Node-Opus](https://www.npmjs.com/package/node-opus) - Dependency Management
+* [Discord.js](https://discord.js.org)
+* [Node-Opus](https://www.npmjs.com/package/node-opus)
+* [Discord MusicBot Addon](https://github.com/DarkoPendragon/discord.js-musicbot-addon)
 
 ## Authors
 
