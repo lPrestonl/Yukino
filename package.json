@@ -1,7 +1,7 @@
 {
-  "name": "Bot",
-  "version": "1.0.0",
-  "description": "",
+  "name": "Yukino",
+  "version": "0.0.4a",
+  "description": "Private Discord.js Bot Created by Preston#1337",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

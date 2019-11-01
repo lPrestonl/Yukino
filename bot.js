@@ -2,6 +2,7 @@ const fs = require('fs');
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
+const PACKAGE = require("./package.json");
 
 client.commands = new Discord.Collection();
 
@@ -102,7 +103,7 @@ if (message.content.startsWith(config.prefix + "about")) {
    .setColor('#0099ff')
    .setTitle('About')
    .setImage('')
-   .addField('Version', '0.0.1a', true)
+   .addField('Version', `${PACKAGE.version}`, true)
    .addField('Discord', `[Hf8arY4](https://discord.gg/Hf8arY4)`, true)
    .addField('Bot Invite', '[Click Me!](https://discordapp.com/api/oauth2/authorize?client_id=637818370670067712&scope=bot&permissions=8)', true)
 	 .addField('Creator', 'Preston#1337', true)
