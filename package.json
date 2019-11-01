@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "node-opus": "^0.3.3"
+    "discord.js-musicbot-addon": "^13.8.1",
+    "node-opus": "^0.3.3",
+    "quick.db": "^7.0.0-b22",
+    "ytpl": "^0.1.17",
+    "ytsearcher": "^1.2.2"
   }
 }
