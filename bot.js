@@ -144,7 +144,7 @@ if (message.content.startsWith(config.prefix + "snow")) {
 
 //brendy
 if (message.content.startsWith(config.prefix + "brendy")) {
-  message.channel.send("<@217737636977180672> <:brendy:638228731801894942>");
+  message.channel.send("<@217737636977180672> <:brendy:619350579688374273>");
 }
 
 });
